@@ -12,17 +12,13 @@ const Pagination = ( { page, onPageChange } : Props ) => {
         <nav>
           <ul className="pagination">
             <li className={`page-item ${page.first ? 'disabled' : ''}`}>
-              <a className="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true" onClick={() => onPageChange(page.number - 1)}>&laquo;</span>
-              </a>
+              <button className="page-link"onClick={() => onPageChange(page.number - 1)}>Anterior</button>
             </li>
             <li className="page-item disabled">
               <span className="page-link">{page.number + 1}</span>
             </li>
             <li className={`page-item ${page.last ? 'disabled' : ''}`}>
-              <a className="page-link" href="#" aria-label="Next">
-                <span aria-hidden="true" onClick={() => onPageChange(page.number + 1)}>&raquo;</span>
-              </a>
+              <button className="page-link" onClick={() => onPageChange(page.number + 1)}>Próxima</button>
             </li>
           </ul>
         </nav>
