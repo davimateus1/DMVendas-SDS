@@ -8,12 +8,12 @@ const Home = () => {
     <NavBar />
       <div className="container text-center">
         <div className="jumbotron">
-          <h1 className="display-4">DM Vendas</h1>
-          <p className="lead">
+          <h1 className="display-4 text-danger ">DM Vendas</h1>
+          <p className="lead text-dark">
             Analise o desempenho das suas vendas por diferentes perspectivas
           </p>
           <hr />
-          <p>
+          <p className="text-success "> 
             Esta aplicação consiste em exibir um dashboard a partir de dados
             fornecidos por um back end construído com Spring Boot.
           </p>
