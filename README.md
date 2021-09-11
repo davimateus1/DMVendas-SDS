@@ -26,10 +26,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Java](https://www.java.com/pt-BR/)
 - [Netlify](https://www.netlify.com)
 
+<br>
+
 ## 💻 Projeto
 
+<p align="center">
 O projeto consiste em um Dashboard de vendas, tendo um Frontend composto com o ReactJS e alguns fundamentos do Bootstrap e o Backend composto pela linguagem Java com SpringBoot utilizando um banco de dados (Postgre SQL), na aplicação você consegue visualizar informações tais como: Data, Vendedor, Clientes visitados, Negócios fechados, Valor em uma tabela e essas informações em formas mais apresentáveis, como gráficos de rosca e de barras horizontais.
-
+</p>
 <br>
 
 ## 🔖 Layout
