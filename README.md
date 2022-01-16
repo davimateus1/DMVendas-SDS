@@ -22,7 +22,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript)
 - [Postman](https://www.postman.com/downloads/)
 - [Heroku](https://dashboard.heroku.com/apps)
-- [Postegre SQL](https://www.postgresql.org)
+- [Postgre SQL](https://www.postgresql.org)
 - [Java](https://www.java.com/pt-BR/)
 - [Netlify](https://www.netlify.com)
 
